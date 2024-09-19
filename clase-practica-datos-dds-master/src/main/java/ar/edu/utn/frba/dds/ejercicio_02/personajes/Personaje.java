@@ -23,6 +23,10 @@ public class Personaje{
   @Column(name = "elemento")
   private List<ElementoDefensor> elementos;
 
+  @Getter
+  @Column(name = "tipo personaje")
+  private TipoPersonaje tipoPersonaje;
+
   @Column
   @Getter @Setter
   private Integer estamina;
